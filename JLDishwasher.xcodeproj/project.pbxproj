@@ -10,7 +10,7 @@
 		0292A859CA4A06A1FE5BFCCB /* Pods_JLDishwasherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601DCC61CA0D4264E3C0B259 /* Pods_JLDishwasherUITests.framework */; };
 		29167BDC1E0ABD40007F2231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BDB1E0ABD40007F2231 /* AppDelegate.swift */; };
 		29167BDE1E0ABD40007F2231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BDD1E0ABD40007F2231 /* ViewController.swift */; };
-		29167BE11E0ABD40007F2231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29167BDF1E0ABD40007F2231 /* Main.storyboard */; };
+		29167BE11E0ABD40007F2231 /* DisplayDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29167BDF1E0ABD40007F2231 /* DisplayDetail.storyboard */; };
 		29167BE31E0ABD40007F2231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29167BE21E0ABD40007F2231 /* Assets.xcassets */; };
 		29167BE61E0ABD40007F2231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29167BE41E0ABD40007F2231 /* LaunchScreen.storyboard */; };
 		29167BF11E0ABD40007F2231 /* JLDishwasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BF01E0ABD40007F2231 /* JLDishwasherTests.swift */; };
@@ -41,7 +41,7 @@
 		29167BD81E0ABD40007F2231 /* JLDishwasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLDishwasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29167BDB1E0ABD40007F2231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29167BDD1E0ABD40007F2231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		29167BE01E0ABD40007F2231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29167BE01E0ABD40007F2231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DisplayDetail.storyboard; sourceTree = "<group>"; };
 		29167BE21E0ABD40007F2231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29167BE51E0ABD40007F2231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29167BE71E0ABD40007F2231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,11 +114,12 @@
 		29167BDA1E0ABD40007F2231 /* JLDishwasher */ = {
 			isa = PBXGroup;
 			children = (
+				29167C171E0ABF39007F2231 /* Foundation */,
+				29167C091E0ABEC8007F2231 /* DisplayGrid */,
+				29167C0A1E0ABED4007F2231 /* DisplayDetail */,
 				29167BDB1E0ABD40007F2231 /* AppDelegate.swift */,
 				29167BDD1E0ABD40007F2231 /* ViewController.swift */,
-				29167BDF1E0ABD40007F2231 /* Main.storyboard */,
 				29167BE21E0ABD40007F2231 /* Assets.xcassets */,
-				29167BE41E0ABD40007F2231 /* LaunchScreen.storyboard */,
 				29167BE71E0ABD40007F2231 /* Info.plist */,
 			);
 			path = JLDishwasher;
@@ -140,6 +141,141 @@
 				29167BFD1E0ABD40007F2231 /* Info.plist */,
 			);
 			path = JLDishwasherUITests;
+			sourceTree = "<group>";
+		};
+		29167C091E0ABEC8007F2231 /* DisplayGrid */ = {
+			isa = PBXGroup;
+			children = (
+				29167C0B1E0ABEE6007F2231 /* Protocols */,
+				29167C101E0ABF06007F2231 /* Views */,
+				29167C0F1E0ABF01007F2231 /* Presenter */,
+				29167C0E1E0ABEFC007F2231 /* Interactor */,
+				29167C0D1E0ABEF6007F2231 /* DataManager */,
+				29167C0C1E0ABEEF007F2231 /* Services */,
+			);
+			name = DisplayGrid;
+			sourceTree = "<group>";
+		};
+		29167C0A1E0ABED4007F2231 /* DisplayDetail */ = {
+			isa = PBXGroup;
+			children = (
+				29167C161E0ABF2C007F2231 /* Protocols */,
+				29167C151E0ABF27007F2231 /* Views */,
+				29167C141E0ABF22007F2231 /* Presenter */,
+				29167C131E0ABF1D007F2231 /* Interactor */,
+				29167C121E0ABF17007F2231 /* DataManager */,
+				29167C111E0ABF13007F2231 /* Services */,
+			);
+			name = DisplayDetail;
+			sourceTree = "<group>";
+		};
+		29167C0B1E0ABEE6007F2231 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		29167C0C1E0ABEEF007F2231 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		29167C0D1E0ABEF6007F2231 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		29167C0E1E0ABEFC007F2231 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		29167C0F1E0ABF01007F2231 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		29167C101E0ABF06007F2231 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		29167C111E0ABF13007F2231 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		29167C121E0ABF17007F2231 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		29167C131E0ABF1D007F2231 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		29167C141E0ABF22007F2231 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		29167C151E0ABF27007F2231 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		29167C161E0ABF2C007F2231 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		29167C171E0ABF39007F2231 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				29167C191E0AC156007F2231 /* Wireframe */,
+				29167C181E0ABF46007F2231 /* StoryBoards */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		29167C181E0ABF46007F2231 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				29167BDF1E0ABD40007F2231 /* DisplayDetail.storyboard */,
+				29167BE41E0ABD40007F2231 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		29167C191E0AC156007F2231 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Wireframe;
 			sourceTree = "<group>";
 		};
 		C414634A5560682D4920AA87 /* Frameworks */ = {
@@ -286,7 +422,7 @@
 			files = (
 				29167BE61E0ABD40007F2231 /* LaunchScreen.storyboard in Resources */,
 				29167BE31E0ABD40007F2231 /* Assets.xcassets in Resources */,
-				29167BE11E0ABD40007F2231 /* Main.storyboard in Resources */,
+				29167BE11E0ABD40007F2231 /* DisplayDetail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		6A5B37FC8F3124753A1AFCEE /* [CP] Embed Pods Frameworks */ = {
@@ -394,7 +530,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		B97805917DDC7DC36B2A2D0C /* [CP] Check Pods Manifest.lock */ = {
@@ -409,7 +545,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		D5DC78A82A9480F08C4ABA17 /* [CP] Embed Pods Frameworks */ = {
@@ -486,12 +622,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		29167BDF1E0ABD40007F2231 /* Main.storyboard */ = {
+		29167BDF1E0ABD40007F2231 /* DisplayDetail.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				29167BE01E0ABD40007F2231 /* Base */,
 			);
-			name = Main.storyboard;
+			name = DisplayDetail.storyboard;
 			sourceTree = "<group>";
 		};
 		29167BE41E0ABD40007F2231 /* LaunchScreen.storyboard */ = {
@@ -707,6 +843,7 @@
 				29167C021E0ABD40007F2231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29167C031E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasherTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +852,7 @@
 				29167C051E0ABD40007F2231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		29167C061E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasherUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +861,7 @@
 				29167C081E0ABD40007F2231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
