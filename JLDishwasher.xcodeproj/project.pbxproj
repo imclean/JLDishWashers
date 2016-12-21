@@ -32,6 +32,16 @@
 		29167C3F1E0AC3D6007F2231 /* DisplayDetailDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C3E1E0AC3D6007F2231 /* DisplayDetailDataManager.swift */; };
 		29167C411E0AC578007F2231 /* DisplayDetailServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C401E0AC578007F2231 /* DisplayDetailServices.swift */; };
 		29167C431E0AC8D5007F2231 /* DisplayDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29167C421E0AC8D5007F2231 /* DisplayDetail.storyboard */; };
+		29167C461E0ACBC0007F2231 /* TestDisplayGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C451E0ACBC0007F2231 /* TestDisplayGridViewController.swift */; };
+		29167C4C1E0ACC30007F2231 /* TestDisplayGridPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C4B1E0ACC30007F2231 /* TestDisplayGridPresenter.swift */; };
+		29167C4E1E0ACC3E007F2231 /* TestDisplayGridInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C4D1E0ACC3E007F2231 /* TestDisplayGridInteractor.swift */; };
+		29167C501E0ACC4D007F2231 /* TestDisplayGridDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C4F1E0ACC4D007F2231 /* TestDisplayGridDataManager.swift */; };
+		29167C521E0ACC5A007F2231 /* TestDisplayGridServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C511E0ACC5A007F2231 /* TestDisplayGridServices.swift */; };
+		29167C541E0ACC79007F2231 /* TestDisplayDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C531E0ACC79007F2231 /* TestDisplayDetailViewController.swift */; };
+		29167C561E0ACC94007F2231 /* TestDisplayDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C551E0ACC94007F2231 /* TestDisplayDetailPresenter.swift */; };
+		29167C581E0ACD30007F2231 /* TestDisplayDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C571E0ACD30007F2231 /* TestDisplayDetailInteractor.swift */; };
+		29167C5A1E0ACD47007F2231 /* TestDisplayDetailDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C591E0ACD47007F2231 /* TestDisplayDetailDataManager.swift */; };
+		29167C5C1E0ACD5E007F2231 /* TestDisplayDetailServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167C5B1E0ACD5E007F2231 /* TestDisplayDetailServices.swift */; };
 		4E42B8D2CFCCCA9616A73BFA /* Pods_JLDishwasher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5645079931B06CCA6E756112 /* Pods_JLDishwasher.framework */; };
 		D9F7631EC4D9C40848160658 /* Pods_JLDishwasherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD7F0A0ADBD652CB4F416E9 /* Pods_JLDishwasherTests.framework */; };
 /* End PBXBuildFile section */
@@ -85,6 +95,16 @@
 		29167C3E1E0AC3D6007F2231 /* DisplayDetailDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDetailDataManager.swift; sourceTree = "<group>"; };
 		29167C401E0AC578007F2231 /* DisplayDetailServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDetailServices.swift; sourceTree = "<group>"; };
 		29167C421E0AC8D5007F2231 /* DisplayDetail.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DisplayDetail.storyboard; sourceTree = "<group>"; };
+		29167C451E0ACBC0007F2231 /* TestDisplayGridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayGridViewController.swift; sourceTree = "<group>"; };
+		29167C4B1E0ACC30007F2231 /* TestDisplayGridPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayGridPresenter.swift; sourceTree = "<group>"; };
+		29167C4D1E0ACC3E007F2231 /* TestDisplayGridInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayGridInteractor.swift; sourceTree = "<group>"; };
+		29167C4F1E0ACC4D007F2231 /* TestDisplayGridDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayGridDataManager.swift; sourceTree = "<group>"; };
+		29167C511E0ACC5A007F2231 /* TestDisplayGridServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayGridServices.swift; sourceTree = "<group>"; };
+		29167C531E0ACC79007F2231 /* TestDisplayDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayDetailViewController.swift; sourceTree = "<group>"; };
+		29167C551E0ACC94007F2231 /* TestDisplayDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayDetailPresenter.swift; sourceTree = "<group>"; };
+		29167C571E0ACD30007F2231 /* TestDisplayDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayDetailInteractor.swift; sourceTree = "<group>"; };
+		29167C591E0ACD47007F2231 /* TestDisplayDetailDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayDetailDataManager.swift; sourceTree = "<group>"; };
+		29167C5B1E0ACD5E007F2231 /* TestDisplayDetailServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDisplayDetailServices.swift; sourceTree = "<group>"; };
 		5645079931B06CCA6E756112 /* Pods_JLDishwasher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDishwasher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		601DCC61CA0D4264E3C0B259 /* Pods_JLDishwasherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDishwasherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3E4902553B1340E9FB7F2 /* Pods-JLDishwasherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDishwasherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLDishwasherUITests/Pods-JLDishwasherUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,8 +181,8 @@
 		29167BEF1E0ABD40007F2231 /* JLDishwasherTests */ = {
 			isa = PBXGroup;
 			children = (
-				29167C1A1E0AC1E7007F2231 /* Cases */,
-				29167C1B1E0AC1EC007F2231 /* Data */,
+				29167C471E0ACBE0007F2231 /* DisplayGrid */,
+				29167C481E0ACBF1007F2231 /* DisplayDetail */,
 				29167C1C1E0AC1F0007F2231 /* Supporting Files */,
 			);
 			path = JLDishwasherTests;
@@ -308,6 +328,7 @@
 		29167C171E0ABF39007F2231 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				29167C441E0ACB86007F2231 /* Model */,
 				29167C191E0AC156007F2231 /* Wireframe */,
 				29167C181E0ABF46007F2231 /* StoryBoards */,
 			);
@@ -334,6 +355,11 @@
 		29167C1A1E0AC1E7007F2231 /* Cases */ = {
 			isa = PBXGroup;
 			children = (
+				29167C451E0ACBC0007F2231 /* TestDisplayGridViewController.swift */,
+				29167C4B1E0ACC30007F2231 /* TestDisplayGridPresenter.swift */,
+				29167C4D1E0ACC3E007F2231 /* TestDisplayGridInteractor.swift */,
+				29167C4F1E0ACC4D007F2231 /* TestDisplayGridDataManager.swift */,
+				29167C511E0ACC5A007F2231 /* TestDisplayGridServices.swift */,
 			);
 			name = Cases;
 			sourceTree = "<group>";
@@ -351,6 +377,50 @@
 				29167BF21E0ABD40007F2231 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29167C441E0ACB86007F2231 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		29167C471E0ACBE0007F2231 /* DisplayGrid */ = {
+			isa = PBXGroup;
+			children = (
+				29167C1A1E0AC1E7007F2231 /* Cases */,
+				29167C1B1E0AC1EC007F2231 /* Data */,
+			);
+			name = DisplayGrid;
+			sourceTree = "<group>";
+		};
+		29167C481E0ACBF1007F2231 /* DisplayDetail */ = {
+			isa = PBXGroup;
+			children = (
+				29167C491E0ACBFC007F2231 /* Cases */,
+				29167C4A1E0ACC01007F2231 /* Data */,
+			);
+			name = DisplayDetail;
+			sourceTree = "<group>";
+		};
+		29167C491E0ACBFC007F2231 /* Cases */ = {
+			isa = PBXGroup;
+			children = (
+				29167C531E0ACC79007F2231 /* TestDisplayDetailViewController.swift */,
+				29167C551E0ACC94007F2231 /* TestDisplayDetailPresenter.swift */,
+				29167C571E0ACD30007F2231 /* TestDisplayDetailInteractor.swift */,
+				29167C591E0ACD47007F2231 /* TestDisplayDetailDataManager.swift */,
+				29167C5B1E0ACD5E007F2231 /* TestDisplayDetailServices.swift */,
+			);
+			name = Cases;
+			sourceTree = "<group>";
+		};
+		29167C4A1E0ACC01007F2231 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 		C414634A5560682D4920AA87 /* Frameworks */ = {
@@ -459,6 +529,7 @@
 					29167BEB1E0ABD40007F2231 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = VR63VSE8R3;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 29167BD71E0ABD40007F2231;
 					};
@@ -687,6 +758,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29167C581E0ACD30007F2231 /* TestDisplayDetailInteractor.swift in Sources */,
+				29167C4C1E0ACC30007F2231 /* TestDisplayGridPresenter.swift in Sources */,
+				29167C541E0ACC79007F2231 /* TestDisplayDetailViewController.swift in Sources */,
+				29167C561E0ACC94007F2231 /* TestDisplayDetailPresenter.swift in Sources */,
+				29167C501E0ACC4D007F2231 /* TestDisplayGridDataManager.swift in Sources */,
+				29167C521E0ACC5A007F2231 /* TestDisplayGridServices.swift in Sources */,
+				29167C4E1E0ACC3E007F2231 /* TestDisplayGridInteractor.swift in Sources */,
+				29167C5C1E0ACD5E007F2231 /* TestDisplayDetailServices.swift in Sources */,
+				29167C461E0ACBC0007F2231 /* TestDisplayGridViewController.swift in Sources */,
+				29167C5A1E0ACD47007F2231 /* TestDisplayDetailDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -860,11 +941,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = VR63VSE8R3;
 				INFOPLIST_FILE = JLDishwasherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.brightskyapps.JLDishwasherTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLDishwasher.app/JLDishwasher";
 			};
@@ -876,6 +959,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = VR63VSE8R3;
 				INFOPLIST_FILE = JLDishwasherTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
