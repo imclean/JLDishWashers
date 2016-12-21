@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29167BDC1E0ABD40007F2231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BDB1E0ABD40007F2231 /* AppDelegate.swift */; };
+		29167BDE1E0ABD40007F2231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BDD1E0ABD40007F2231 /* ViewController.swift */; };
+		29167BE11E0ABD40007F2231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29167BDF1E0ABD40007F2231 /* Main.storyboard */; };
+		29167BE31E0ABD40007F2231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29167BE21E0ABD40007F2231 /* Assets.xcassets */; };
+		29167BE61E0ABD40007F2231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29167BE41E0ABD40007F2231 /* LaunchScreen.storyboard */; };
+		29167BF11E0ABD40007F2231 /* JLDishwasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BF01E0ABD40007F2231 /* JLDishwasherTests.swift */; };
+		29167BFC1E0ABD40007F2231 /* JLDishwasherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BFB1E0ABD40007F2231 /* JLDishwasherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29167BED1E0ABD40007F2231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29167BD01E0ABD40007F2231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29167BD71E0ABD40007F2231;
+			remoteInfo = JLDishwasher;
+		};
+		29167BF81E0ABD40007F2231 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29167BD01E0ABD40007F2231 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29167BD71E0ABD40007F2231;
+			remoteInfo = JLDishwasher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29167BD81E0ABD40007F2231 /* JLDishwasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLDishwasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29167BDB1E0ABD40007F2231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29167BDD1E0ABD40007F2231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29167BE01E0ABD40007F2231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29167BE21E0ABD40007F2231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29167BE51E0ABD40007F2231 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29167BE71E0ABD40007F2231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29167BEC1E0ABD40007F2231 /* JLDishwasherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLDishwasherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29167BF01E0ABD40007F2231 /* JLDishwasherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLDishwasherTests.swift; sourceTree = "<group>"; };
+		29167BF21E0ABD40007F2231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29167BF71E0ABD40007F2231 /* JLDishwasherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLDishwasherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29167BFB1E0ABD40007F2231 /* JLDishwasherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLDishwasherUITests.swift; sourceTree = "<group>"; };
+		29167BFD1E0ABD40007F2231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29167BD51E0ABD40007F2231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29167BE91E0ABD40007F2231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29167BF41E0ABD40007F2231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29167BCF1E0ABD40007F2231 = {
+			isa = PBXGroup;
+			children = (
+				29167BDA1E0ABD40007F2231 /* JLDishwasher */,
+				29167BEF1E0ABD40007F2231 /* JLDishwasherTests */,
+				29167BFA1E0ABD40007F2231 /* JLDishwasherUITests */,
+				29167BD91E0ABD40007F2231 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29167BD91E0ABD40007F2231 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29167BD81E0ABD40007F2231 /* JLDishwasher.app */,
+				29167BEC1E0ABD40007F2231 /* JLDishwasherTests.xctest */,
+				29167BF71E0ABD40007F2231 /* JLDishwasherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29167BDA1E0ABD40007F2231 /* JLDishwasher */ = {
+			isa = PBXGroup;
+			children = (
+				29167BDB1E0ABD40007F2231 /* AppDelegate.swift */,
+				29167BDD1E0ABD40007F2231 /* ViewController.swift */,
+				29167BDF1E0ABD40007F2231 /* Main.storyboard */,
+				29167BE21E0ABD40007F2231 /* Assets.xcassets */,
+				29167BE41E0ABD40007F2231 /* LaunchScreen.storyboard */,
+				29167BE71E0ABD40007F2231 /* Info.plist */,
+			);
+			path = JLDishwasher;
+			sourceTree = "<group>";
+		};
+		29167BEF1E0ABD40007F2231 /* JLDishwasherTests */ = {
+			isa = PBXGroup;
+			children = (
+				29167BF01E0ABD40007F2231 /* JLDishwasherTests.swift */,
+				29167BF21E0ABD40007F2231 /* Info.plist */,
+			);
+			path = JLDishwasherTests;
+			sourceTree = "<group>";
+		};
+		29167BFA1E0ABD40007F2231 /* JLDishwasherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				29167BFB1E0ABD40007F2231 /* JLDishwasherUITests.swift */,
+				29167BFD1E0ABD40007F2231 /* Info.plist */,
+			);
+			path = JLDishwasherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29167BD71E0ABD40007F2231 /* JLDishwasher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29167C001E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasher" */;
+			buildPhases = (
+				29167BD41E0ABD40007F2231 /* Sources */,
+				29167BD51E0ABD40007F2231 /* Frameworks */,
+				29167BD61E0ABD40007F2231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLDishwasher;
+			productName = JLDishwasher;
+			productReference = 29167BD81E0ABD40007F2231 /* JLDishwasher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29167BEB1E0ABD40007F2231 /* JLDishwasherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29167C031E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasherTests" */;
+			buildPhases = (
+				29167BE81E0ABD40007F2231 /* Sources */,
+				29167BE91E0ABD40007F2231 /* Frameworks */,
+				29167BEA1E0ABD40007F2231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29167BEE1E0ABD40007F2231 /* PBXTargetDependency */,
+			);
+			name = JLDishwasherTests;
+			productName = JLDishwasherTests;
+			productReference = 29167BEC1E0ABD40007F2231 /* JLDishwasherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		29167BF61E0ABD40007F2231 /* JLDishwasherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29167C061E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasherUITests" */;
+			buildPhases = (
+				29167BF31E0ABD40007F2231 /* Sources */,
+				29167BF41E0ABD40007F2231 /* Frameworks */,
+				29167BF51E0ABD40007F2231 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29167BF91E0ABD40007F2231 /* PBXTargetDependency */,
+			);
+			name = JLDishwasherUITests;
+			productName = JLDishwasherUITests;
+			productReference = 29167BF71E0ABD40007F2231 /* JLDishwasherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29167BD01E0ABD40007F2231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Iain McLean";
+				TargetAttributes = {
+					29167BD71E0ABD40007F2231 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VR63VSE8R3;
+						ProvisioningStyle = Automatic;
+					};
+					29167BEB1E0ABD40007F2231 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VR63VSE8R3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29167BD71E0ABD40007F2231;
+					};
+					29167BF61E0ABD40007F2231 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = VR63VSE8R3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 29167BD71E0ABD40007F2231;
+					};
+				};
+			};
+			buildConfigurationList = 29167BD31E0ABD40007F2231 /* Build configuration list for PBXProject "JLDishwasher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29167BCF1E0ABD40007F2231;
+			productRefGroup = 29167BD91E0ABD40007F2231 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29167BD71E0ABD40007F2231 /* JLDishwasher */,
+				29167BEB1E0ABD40007F2231 /* JLDishwasherTests */,
+				29167BF61E0ABD40007F2231 /* JLDishwasherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29167BD61E0ABD40007F2231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29167BE61E0ABD40007F2231 /* LaunchScreen.storyboard in Resources */,
+				29167BE31E0ABD40007F2231 /* Assets.xcassets in Resources */,
+				29167BE11E0ABD40007F2231 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29167BEA1E0ABD40007F2231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29167BF51E0ABD40007F2231 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29167BD41E0ABD40007F2231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29167BDE1E0ABD40007F2231 /* ViewController.swift in Sources */,
+				29167BDC1E0ABD40007F2231 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29167BE81E0ABD40007F2231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29167BF11E0ABD40007F2231 /* JLDishwasherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29167BF31E0ABD40007F2231 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29167BFC1E0ABD40007F2231 /* JLDishwasherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29167BEE1E0ABD40007F2231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29167BD71E0ABD40007F2231 /* JLDishwasher */;
+			targetProxy = 29167BED1E0ABD40007F2231 /* PBXContainerItemProxy */;
+		};
+		29167BF91E0ABD40007F2231 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29167BD71E0ABD40007F2231 /* JLDishwasher */;
+			targetProxy = 29167BF81E0ABD40007F2231 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29167BDF1E0ABD40007F2231 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29167BE01E0ABD40007F2231 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29167BE41E0ABD40007F2231 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29167BE51E0ABD40007F2231 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29167BFE1E0ABD40007F2231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		29167BFF1E0ABD40007F2231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29167C011E0ABD40007F2231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR63VSE8R3;
+				INFOPLIST_FILE = JLDishwasher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightskyapps.JLDishwasher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		29167C021E0ABD40007F2231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR63VSE8R3;
+				INFOPLIST_FILE = JLDishwasher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightskyapps.JLDishwasher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		29167C041E0ABD40007F2231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VR63VSE8R3;
+				INFOPLIST_FILE = JLDishwasherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightskyapps.JLDishwasherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLDishwasher.app/JLDishwasher";
+			};
+			name = Debug;
+		};
+		29167C051E0ABD40007F2231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VR63VSE8R3;
+				INFOPLIST_FILE = JLDishwasherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightskyapps.JLDishwasherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JLDishwasher.app/JLDishwasher";
+			};
+			name = Release;
+		};
+		29167C071E0ABD40007F2231 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VR63VSE8R3;
+				INFOPLIST_FILE = JLDishwasherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightskyapps.JLDishwasherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JLDishwasher;
+			};
+			name = Debug;
+		};
+		29167C081E0ABD40007F2231 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VR63VSE8R3;
+				INFOPLIST_FILE = JLDishwasherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.brightskyapps.JLDishwasherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JLDishwasher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29167BD31E0ABD40007F2231 /* Build configuration list for PBXProject "JLDishwasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29167BFE1E0ABD40007F2231 /* Debug */,
+				29167BFF1E0ABD40007F2231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29167C001E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29167C011E0ABD40007F2231 /* Debug */,
+				29167C021E0ABD40007F2231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29167C031E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29167C041E0ABD40007F2231 /* Debug */,
+				29167C051E0ABD40007F2231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29167C061E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29167C071E0ABD40007F2231 /* Debug */,
+				29167C081E0ABD40007F2231 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29167BD01E0ABD40007F2231 /* Project object */;
+}
