@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0292A859CA4A06A1FE5BFCCB /* Pods_JLDishwasherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601DCC61CA0D4264E3C0B259 /* Pods_JLDishwasherUITests.framework */; };
 		29167BDC1E0ABD40007F2231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BDB1E0ABD40007F2231 /* AppDelegate.swift */; };
 		29167BDE1E0ABD40007F2231 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BDD1E0ABD40007F2231 /* ViewController.swift */; };
 		29167BE11E0ABD40007F2231 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29167BDF1E0ABD40007F2231 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		29167BE61E0ABD40007F2231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29167BE41E0ABD40007F2231 /* LaunchScreen.storyboard */; };
 		29167BF11E0ABD40007F2231 /* JLDishwasherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BF01E0ABD40007F2231 /* JLDishwasherTests.swift */; };
 		29167BFC1E0ABD40007F2231 /* JLDishwasherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29167BFB1E0ABD40007F2231 /* JLDishwasherUITests.swift */; };
+		4E42B8D2CFCCCA9616A73BFA /* Pods_JLDishwasher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5645079931B06CCA6E756112 /* Pods_JLDishwasher.framework */; };
+		D9F7631EC4D9C40848160658 /* Pods_JLDishwasherTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD7F0A0ADBD652CB4F416E9 /* Pods_JLDishwasherTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10346C1AC4A092D427F7DB9F /* Pods-JLDishwasher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDishwasher.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLDishwasher/Pods-JLDishwasher.release.xcconfig"; sourceTree = "<group>"; };
 		29167BD81E0ABD40007F2231 /* JLDishwasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLDishwasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29167BDB1E0ABD40007F2231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29167BDD1E0ABD40007F2231 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		29167BF71E0ABD40007F2231 /* JLDishwasherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLDishwasherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29167BFB1E0ABD40007F2231 /* JLDishwasherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JLDishwasherUITests.swift; sourceTree = "<group>"; };
 		29167BFD1E0ABD40007F2231 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5645079931B06CCA6E756112 /* Pods_JLDishwasher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDishwasher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		601DCC61CA0D4264E3C0B259 /* Pods_JLDishwasherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDishwasherUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A3E4902553B1340E9FB7F2 /* Pods-JLDishwasherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDishwasherUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLDishwasherUITests/Pods-JLDishwasherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		647979FDC1C31DC2A52E5463 /* Pods-JLDishwasherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDishwasherUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLDishwasherUITests/Pods-JLDishwasherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E4F8E38DC6F5BB24157A073 /* Pods-JLDishwasher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDishwasher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLDishwasher/Pods-JLDishwasher.debug.xcconfig"; sourceTree = "<group>"; };
+		AB7379814887F4912F8328E0 /* Pods-JLDishwasherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDishwasherTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JLDishwasherTests/Pods-JLDishwasherTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCD7F0A0ADBD652CB4F416E9 /* Pods_JLDishwasherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JLDishwasherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BBE5A79827E53C0F1D2913 /* Pods-JLDishwasherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JLDishwasherTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JLDishwasherTests/Pods-JLDishwasherTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E42B8D2CFCCCA9616A73BFA /* Pods_JLDishwasher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F7631EC4D9C40848160658 /* Pods_JLDishwasherTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0292A859CA4A06A1FE5BFCCB /* Pods_JLDishwasherUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				29167BEF1E0ABD40007F2231 /* JLDishwasherTests */,
 				29167BFA1E0ABD40007F2231 /* JLDishwasherUITests */,
 				29167BD91E0ABD40007F2231 /* Products */,
+				D322F2960606AD288CF39486 /* Pods */,
+				C414634A5560682D4920AA87 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = JLDishwasherUITests;
 			sourceTree = "<group>";
 		};
+		C414634A5560682D4920AA87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5645079931B06CCA6E756112 /* Pods_JLDishwasher.framework */,
+				DCD7F0A0ADBD652CB4F416E9 /* Pods_JLDishwasherTests.framework */,
+				601DCC61CA0D4264E3C0B259 /* Pods_JLDishwasherUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D322F2960606AD288CF39486 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E4F8E38DC6F5BB24157A073 /* Pods-JLDishwasher.debug.xcconfig */,
+				10346C1AC4A092D427F7DB9F /* Pods-JLDishwasher.release.xcconfig */,
+				F8BBE5A79827E53C0F1D2913 /* Pods-JLDishwasherTests.debug.xcconfig */,
+				AB7379814887F4912F8328E0 /* Pods-JLDishwasherTests.release.xcconfig */,
+				647979FDC1C31DC2A52E5463 /* Pods-JLDishwasherUITests.debug.xcconfig */,
+				63A3E4902553B1340E9FB7F2 /* Pods-JLDishwasherUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29167C001E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasher" */;
 			buildPhases = (
+				B97805917DDC7DC36B2A2D0C /* [CP] Check Pods Manifest.lock */,
 				29167BD41E0ABD40007F2231 /* Sources */,
 				29167BD51E0ABD40007F2231 /* Frameworks */,
 				29167BD61E0ABD40007F2231 /* Resources */,
+				6A5B37FC8F3124753A1AFCEE /* [CP] Embed Pods Frameworks */,
+				1BEE597857A3DE159711E1C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29167C031E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasherTests" */;
 			buildPhases = (
+				B95E714A3697A763BBE6608A /* [CP] Check Pods Manifest.lock */,
 				29167BE81E0ABD40007F2231 /* Sources */,
 				29167BE91E0ABD40007F2231 /* Frameworks */,
 				29167BEA1E0ABD40007F2231 /* Resources */,
+				F0253BCD0DC06BB0BF924ADF /* [CP] Embed Pods Frameworks */,
+				7FE6278208B3AFC6C7419977 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29167C061E0ABD40007F2231 /* Build configuration list for PBXNativeTarget "JLDishwasherUITests" */;
 			buildPhases = (
+				2199E9615777DCE0BB259836 /* [CP] Check Pods Manifest.lock */,
 				29167BF31E0ABD40007F2231 /* Sources */,
 				29167BF41E0ABD40007F2231 /* Frameworks */,
 				29167BF51E0ABD40007F2231 /* Resources */,
+				D5DC78A82A9480F08C4ABA17 /* [CP] Embed Pods Frameworks */,
+				0B25495B7CF3F1EE1CC2DEB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B25495B7CF3F1EE1CC2DEB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLDishwasherUITests/Pods-JLDishwasherUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BEE597857A3DE159711E1C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLDishwasher/Pods-JLDishwasher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2199E9615777DCE0BB259836 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5B37FC8F3124753A1AFCEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLDishwasher/Pods-JLDishwasher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FE6278208B3AFC6C7419977 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLDishwasherTests/Pods-JLDishwasherTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B95E714A3697A763BBE6608A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B97805917DDC7DC36B2A2D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DC78A82A9480F08C4ABA17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLDishwasherUITests/Pods-JLDishwasherUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0253BCD0DC06BB0BF924ADF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JLDishwasherTests/Pods-JLDishwasherTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29167BD41E0ABD40007F2231 /* Sources */ = {
@@ -413,6 +600,7 @@
 		};
 		29167C011E0ABD40007F2231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E4F8E38DC6F5BB24157A073 /* Pods-JLDishwasher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VR63VSE8R3;
@@ -426,6 +614,7 @@
 		};
 		29167C021E0ABD40007F2231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10346C1AC4A092D427F7DB9F /* Pods-JLDishwasher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VR63VSE8R3;
@@ -439,6 +628,7 @@
 		};
 		29167C041E0ABD40007F2231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BBE5A79827E53C0F1D2913 /* Pods-JLDishwasherTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		29167C051E0ABD40007F2231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7379814887F4912F8328E0 /* Pods-JLDishwasherTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +660,7 @@
 		};
 		29167C071E0ABD40007F2231 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647979FDC1C31DC2A52E5463 /* Pods-JLDishwasherUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VR63VSE8R3;
@@ -483,6 +675,7 @@
 		};
 		29167C081E0ABD40007F2231 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63A3E4902553B1340E9FB7F2 /* Pods-JLDishwasherUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = VR63VSE8R3;

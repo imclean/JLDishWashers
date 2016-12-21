@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2383F66766FACB90750B93AE39EE60DC /* Pods-JLDishwasherTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA33982252D523BF7C889585A3B3491A /* Pods-JLDishwasherTests-dummy.m */; };
+		47AAE0EDD0131D0C0CED30DE37DEB5E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7874D219089F28CBAFD4F1CD10FB6936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7ED36DB577DAD5466324D533C6F80260 /* Pods-JLDishwasherUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F58135DD5BFF692B0AF54A128995182 /* Pods-JLDishwasherUITests-dummy.m */; };
+		9F346A469B172F2975871A221AFE5E68 /* Pods-JLDishwasher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00499FF800F0E831B31C625BEC21316D /* Pods-JLDishwasher-dummy.m */; };
+		DB46755ABF16CC59A1DB7902410896BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EC7BCF6FB876308254DAA0CD535B70F9 /* Pods-JLDishwasherTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A36EAC4C9779FFA55D96A83505D338F3 /* Pods-JLDishwasherTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3BF31EBA07EA6D7FBF5B9DEEA6A30EC /* Pods-JLDishwasher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFE53FB87889A16A437ED8AD199103D /* Pods-JLDishwasher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F91814EB4BC2B51CD541C687ABA2CC4C /* Pods-JLDishwasherUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B199EB9B5EB300B483C3758A59D877CC /* Pods-JLDishwasherUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00499FF800F0E831B31C625BEC21316D /* Pods-JLDishwasher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLDishwasher-dummy.m"; sourceTree = "<group>"; };
+		07841CBE7FCF9D94C67B0C53E4E0F103 /* Pods-JLDishwasherUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDishwasherUITests-resources.sh"; sourceTree = "<group>"; };
+		0B49396A5115BDFED83DF12322244FC8 /* Pods-JLDishwasher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDishwasher.release.xcconfig"; sourceTree = "<group>"; };
+		0F58135DD5BFF692B0AF54A128995182 /* Pods-JLDishwasherUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLDishwasherUITests-dummy.m"; sourceTree = "<group>"; };
+		1AF2201B09CE1E4B1EC618EAE2CDDE43 /* Pods_JLDishwasherUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLDishwasherUITests.framework; path = "Pods-JLDishwasherUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BB89D0167AF21289B850EF9A60F1F8F /* Pods-JLDishwasherUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDishwasherUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1BD226D2D2A40F1BC7ADA6A3E0E70476 /* Pods_JLDishwasher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLDishwasher.framework; path = "Pods-JLDishwasher.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		320A3E59310521509FF441D0274B5534 /* Pods-JLDishwasherUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLDishwasherUITests.modulemap"; sourceTree = "<group>"; };
+		32B41EDCDC597C527A22A376B1D1240B /* Pods-JLDishwasherTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDishwasherTests.release.xcconfig"; sourceTree = "<group>"; };
+		3421B2A08D4A619A2F2A93A81B1FF3A5 /* Pods-JLDishwasher-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLDishwasher-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B3444084F9B6A26ED756DED15051196 /* Pods-JLDishwasherUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDishwasherUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DFE53FB87889A16A437ED8AD199103D /* Pods-JLDishwasher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLDishwasher-umbrella.h"; sourceTree = "<group>"; };
+		3EB2C779EA8D80C40E2DFEFD7B9FFCBE /* Pods-JLDishwasherUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDishwasherUITests.release.xcconfig"; sourceTree = "<group>"; };
+		485D151E8C28F997DA9BE979286504B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D94996890D6D657BA14FC67A309F4A9 /* Pods-JLDishwasherTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLDishwasherTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D51829509C4CC9933C1282B5BA7EA5B /* Pods-JLDishwasherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDishwasherTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76C12FE848D0F6423599840C5D4909F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBA0A873E58BA202736261F1955707B /* Pods-JLDishwasherTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLDishwasherTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7DE8740AFBBC266B6D58F488F735C199 /* Pods-JLDishwasherTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLDishwasherTests.modulemap"; sourceTree = "<group>"; };
+		904CE3B2B96549042E9511D217BBE0E1 /* Pods-JLDishwasher-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDishwasher-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94160CD41447E64A6ADA1B35BA725A08 /* Pods-JLDishwasher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLDishwasher.modulemap"; sourceTree = "<group>"; };
+		A36EAC4C9779FFA55D96A83505D338F3 /* Pods-JLDishwasherTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLDishwasherTests-umbrella.h"; sourceTree = "<group>"; };
+		AF38EC9879C8D48131F79E9C2C5E2E6E /* Pods-JLDishwasherTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDishwasherTests-frameworks.sh"; sourceTree = "<group>"; };
+		B12B1053200DF879FB9BEDC20CA2882B /* Pods-JLDishwasherUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLDishwasherUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B16958F592560CD834E1D49CC2245609 /* Pods-JLDishwasherTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDishwasherTests-resources.sh"; sourceTree = "<group>"; };
+		B199EB9B5EB300B483C3758A59D877CC /* Pods-JLDishwasherUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLDishwasherUITests-umbrella.h"; sourceTree = "<group>"; };
+		BB02426503EB9102B0CABDDF955ACC47 /* Pods-JLDishwasher-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLDishwasher-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2FF1401D6F0312EDDBED8A9248DCBC4 /* Pods-JLDishwasher-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLDishwasher-frameworks.sh"; sourceTree = "<group>"; };
+		D4556B3C19B6217A816F4873A8704BC1 /* Pods_JLDishwasherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLDishwasherTests.framework; path = "Pods-JLDishwasherTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDBD611D2F5AA41922E9C956D57FC15 /* Pods-JLDishwasher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLDishwasher.debug.xcconfig"; sourceTree = "<group>"; };
+		F3AF1B770F8124B2FFC41A3ECBC3843B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA33982252D523BF7C889585A3B3491A /* Pods-JLDishwasherTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLDishwasherTests-dummy.m"; sourceTree = "<group>"; };
+		FEDC315B40D38D0234E7FF2F9BB52959 /* Pods-JLDishwasherUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLDishwasherUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E7952BC615784DE1E243460249724F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7874D219089F28CBAFD4F1CD10FB6936 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EB29E2D83D6AF3DE44D66D84D962947 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AAE0EDD0131D0C0CED30DE37DEB5E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF6DEEBF5766BE08A3AAB930795D5996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB46755ABF16CC59A1DB7902410896BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C17342DC6ABAFCF0FFC9FF5394900EA /* Pods-JLDishwasher */ = {
+			isa = PBXGroup;
+			children = (
+				76C12FE848D0F6423599840C5D4909F3 /* Info.plist */,
+				94160CD41447E64A6ADA1B35BA725A08 /* Pods-JLDishwasher.modulemap */,
+				BB02426503EB9102B0CABDDF955ACC47 /* Pods-JLDishwasher-acknowledgements.markdown */,
+				3421B2A08D4A619A2F2A93A81B1FF3A5 /* Pods-JLDishwasher-acknowledgements.plist */,
+				00499FF800F0E831B31C625BEC21316D /* Pods-JLDishwasher-dummy.m */,
+				D2FF1401D6F0312EDDBED8A9248DCBC4 /* Pods-JLDishwasher-frameworks.sh */,
+				904CE3B2B96549042E9511D217BBE0E1 /* Pods-JLDishwasher-resources.sh */,
+				3DFE53FB87889A16A437ED8AD199103D /* Pods-JLDishwasher-umbrella.h */,
+				DEDBD611D2F5AA41922E9C956D57FC15 /* Pods-JLDishwasher.debug.xcconfig */,
+				0B49396A5115BDFED83DF12322244FC8 /* Pods-JLDishwasher.release.xcconfig */,
+			);
+			name = "Pods-JLDishwasher";
+			path = "Target Support Files/Pods-JLDishwasher";
+			sourceTree = "<group>";
+		};
+		34EBFC32F7D0DCC7179D771B39FA7186 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C17342DC6ABAFCF0FFC9FF5394900EA /* Pods-JLDishwasher */,
+				9D25DE0C10BA31A9FFEBE36DBA6945E1 /* Pods-JLDishwasherTests */,
+				AE79112D9EFFD553381BDDFF23506275 /* Pods-JLDishwasherUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DEF96A10A3B90FEDA2DDE294A2549110 /* Products */,
+				34EBFC32F7D0DCC7179D771B39FA7186 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9D25DE0C10BA31A9FFEBE36DBA6945E1 /* Pods-JLDishwasherTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3AF1B770F8124B2FFC41A3ECBC3843B /* Info.plist */,
+				7DE8740AFBBC266B6D58F488F735C199 /* Pods-JLDishwasherTests.modulemap */,
+				5D94996890D6D657BA14FC67A309F4A9 /* Pods-JLDishwasherTests-acknowledgements.markdown */,
+				7DBA0A873E58BA202736261F1955707B /* Pods-JLDishwasherTests-acknowledgements.plist */,
+				FA33982252D523BF7C889585A3B3491A /* Pods-JLDishwasherTests-dummy.m */,
+				AF38EC9879C8D48131F79E9C2C5E2E6E /* Pods-JLDishwasherTests-frameworks.sh */,
+				B16958F592560CD834E1D49CC2245609 /* Pods-JLDishwasherTests-resources.sh */,
+				A36EAC4C9779FFA55D96A83505D338F3 /* Pods-JLDishwasherTests-umbrella.h */,
+				6D51829509C4CC9933C1282B5BA7EA5B /* Pods-JLDishwasherTests.debug.xcconfig */,
+				32B41EDCDC597C527A22A376B1D1240B /* Pods-JLDishwasherTests.release.xcconfig */,
+			);
+			name = "Pods-JLDishwasherTests";
+			path = "Target Support Files/Pods-JLDishwasherTests";
+			sourceTree = "<group>";
+		};
+		AE79112D9EFFD553381BDDFF23506275 /* Pods-JLDishwasherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				485D151E8C28F997DA9BE979286504B3 /* Info.plist */,
+				320A3E59310521509FF441D0274B5534 /* Pods-JLDishwasherUITests.modulemap */,
+				FEDC315B40D38D0234E7FF2F9BB52959 /* Pods-JLDishwasherUITests-acknowledgements.markdown */,
+				B12B1053200DF879FB9BEDC20CA2882B /* Pods-JLDishwasherUITests-acknowledgements.plist */,
+				0F58135DD5BFF692B0AF54A128995182 /* Pods-JLDishwasherUITests-dummy.m */,
+				1BB89D0167AF21289B850EF9A60F1F8F /* Pods-JLDishwasherUITests-frameworks.sh */,
+				07841CBE7FCF9D94C67B0C53E4E0F103 /* Pods-JLDishwasherUITests-resources.sh */,
+				B199EB9B5EB300B483C3758A59D877CC /* Pods-JLDishwasherUITests-umbrella.h */,
+				3B3444084F9B6A26ED756DED15051196 /* Pods-JLDishwasherUITests.debug.xcconfig */,
+				3EB2C779EA8D80C40E2DFEFD7B9FFCBE /* Pods-JLDishwasherUITests.release.xcconfig */,
+			);
+			name = "Pods-JLDishwasherUITests";
+			path = "Target Support Files/Pods-JLDishwasherUITests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEF96A10A3B90FEDA2DDE294A2549110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD226D2D2A40F1BC7ADA6A3E0E70476 /* Pods_JLDishwasher.framework */,
+				D4556B3C19B6217A816F4873A8704BC1 /* Pods_JLDishwasherTests.framework */,
+				1AF2201B09CE1E4B1EC618EAE2CDDE43 /* Pods_JLDishwasherUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16202F1E086ADA9BC038FA7B7D34A1C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7BCF6FB876308254DAA0CD535B70F9 /* Pods-JLDishwasherTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F38A6BC86477015A834354AD541841D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F91814EB4BC2B51CD541C687ABA2CC4C /* Pods-JLDishwasherUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC8C19B651A91B1A5F5E6D0DF23C5BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BF31EBA07EA6D7FBF5B9DEEA6A30EC /* Pods-JLDishwasher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E0A9B336A0E8D4443806C4F0BB5861B /* Pods-JLDishwasher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1969F3DEE4B8EDBE5DE5CEDA36F97BE7 /* Build configuration list for PBXNativeTarget "Pods-JLDishwasher" */;
+			buildPhases = (
+				7D4869F971D128D9769F3D0677A3DD61 /* Sources */,
+				FF6DEEBF5766BE08A3AAB930795D5996 /* Frameworks */,
+				AAC8C19B651A91B1A5F5E6D0DF23C5BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JLDishwasher";
+			productName = "Pods-JLDishwasher";
+			productReference = 1BD226D2D2A40F1BC7ADA6A3E0E70476 /* Pods_JLDishwasher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94E98C4040E01711791DE851A8B8869F /* Pods-JLDishwasherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E6D245AED08B97CA8054A3C0954BD1 /* Build configuration list for PBXNativeTarget "Pods-JLDishwasherUITests" */;
+			buildPhases = (
+				A1A7A96E9B889631BA5C52AEF00B4352 /* Sources */,
+				2E7952BC615784DE1E243460249724F1 /* Frameworks */,
+				9F38A6BC86477015A834354AD541841D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JLDishwasherUITests";
+			productName = "Pods-JLDishwasherUITests";
+			productReference = 1AF2201B09CE1E4B1EC618EAE2CDDE43 /* Pods_JLDishwasherUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7AB09CE5345B61E62CDBA3115794E98 /* Pods-JLDishwasherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6CCC17BF5865951B67708ED8B01C40F /* Build configuration list for PBXNativeTarget "Pods-JLDishwasherTests" */;
+			buildPhases = (
+				9479D4BDB126B10418F01CADFD177B70 /* Sources */,
+				4EB29E2D83D6AF3DE44D66D84D962947 /* Frameworks */,
+				16202F1E086ADA9BC038FA7B7D34A1C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JLDishwasherTests";
+			productName = "Pods-JLDishwasherTests";
+			productReference = D4556B3C19B6217A816F4873A8704BC1 /* Pods_JLDishwasherTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DEF96A10A3B90FEDA2DDE294A2549110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E0A9B336A0E8D4443806C4F0BB5861B /* Pods-JLDishwasher */,
+				B7AB09CE5345B61E62CDBA3115794E98 /* Pods-JLDishwasherTests */,
+				94E98C4040E01711791DE851A8B8869F /* Pods-JLDishwasherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4869F971D128D9769F3D0677A3DD61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F346A469B172F2975871A221AFE5E68 /* Pods-JLDishwasher-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9479D4BDB126B10418F01CADFD177B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2383F66766FACB90750B93AE39EE60DC /* Pods-JLDishwasherTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1A7A96E9B889631BA5C52AEF00B4352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED36DB577DAD5466324D533C6F80260 /* Pods-JLDishwasherUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		049046163C21EE8682BEA072FE1AA1DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B49396A5115BDFED83DF12322244FC8 /* Pods-JLDishwasher.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDishwasher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDishwasher/Pods-JLDishwasher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLDishwasher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0896F851B8A9D8C3EF72C0B0653BC429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB2C779EA8D80C40E2DFEFD7B9FFCBE /* Pods-JLDishwasherUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDishwasherUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDishwasherUITests/Pods-JLDishwasherUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLDishwasherUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		38BDC527A4FBCBD5F8130FD88BA5FCC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B3444084F9B6A26ED756DED15051196 /* Pods-JLDishwasherUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDishwasherUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDishwasherUITests/Pods-JLDishwasherUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLDishwasherUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85D70C768EC23DA1E4A95455340CA307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEDBD611D2F5AA41922E9C956D57FC15 /* Pods-JLDishwasher.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDishwasher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDishwasher/Pods-JLDishwasher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLDishwasher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A60A17A856D18379389D39C9EF2D403 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D51829509C4CC9933C1282B5BA7EA5B /* Pods-JLDishwasherTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDishwasherTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDishwasherTests/Pods-JLDishwasherTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLDishwasherTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC5A8C32B8CA22AC25E832C16B2110DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32B41EDCDC597C527A22A376B1D1240B /* Pods-JLDishwasherTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JLDishwasherTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLDishwasherTests/Pods-JLDishwasherTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLDishwasherTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1969F3DEE4B8EDBE5DE5CEDA36F97BE7 /* Build configuration list for PBXNativeTarget "Pods-JLDishwasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D70C768EC23DA1E4A95455340CA307 /* Debug */,
+				049046163C21EE8682BEA072FE1AA1DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6CCC17BF5865951B67708ED8B01C40F /* Build configuration list for PBXNativeTarget "Pods-JLDishwasherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A60A17A856D18379389D39C9EF2D403 /* Debug */,
+				EC5A8C32B8CA22AC25E832C16B2110DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E6D245AED08B97CA8054A3C0954BD1 /* Build configuration list for PBXNativeTarget "Pods-JLDishwasherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38BDC527A4FBCBD5F8130FD88BA5FCC1 /* Debug */,
+				0896F851B8A9D8C3EF72C0B0653BC429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
