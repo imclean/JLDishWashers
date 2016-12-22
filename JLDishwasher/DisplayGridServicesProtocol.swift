@@ -9,5 +9,8 @@
 import Foundation
 
 protocol DisplayGridServicesDelegate {
-    
+    func didCollect(products:[Product])
+    func didFailCollectingProductsWith(error:String)
+    func didCollect(detail:ProductDetail)
+    func didFailCollectingProductDetailWith(error:String)
 }

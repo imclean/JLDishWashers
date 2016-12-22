@@ -7,15 +7,23 @@
 //
 
 import XCTest
+@testable import JLDishwasher
 
 class TestDisplayDetailInteractor: XCTestCase {
+    var displayDetailInteractor:DisplayDetailInteractor!
     
     override func setUp() {
         super.setUp()
+        let storyboard = UIStoryboard(name: "DisplayDetail", bundle: nil)
+        displayDetailInteractor = (storyboard.instantiateViewController(withIdentifier: "displayDetailViewController") as? DisplayDetailViewController)?.presenter.interactor
     }
     
     override func tearDown() {
         super.tearDown()
+    }
+    
+    func testWhenInitializedDataManagerIsNotNil() {
+        XCTAssertNotNil(displayDetailInteractor.dataManager,"Data Manager should not be nil")
     }
     
 }

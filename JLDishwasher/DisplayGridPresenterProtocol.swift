@@ -9,5 +9,9 @@
 import Foundation
 
 protocol DisplayGridPresenterDelegate {
-    
+    func updateView(title:String)
+    func showHudWith(message:String)
+    func showHudWith(success:String)
+    func showHudWith(error:String)
+    func didReceive(products:[Product])
 }

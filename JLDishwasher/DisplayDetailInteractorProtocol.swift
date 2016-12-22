@@ -6,8 +6,12 @@
 //  Copyright © 2016 Iain McLean. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 protocol DisplayDetailInteractorDelegate {
-    
+    func updateViewWith(price: String)
+    func updateViewWith(guarantee: String)
+    func updateViewWith(specialOffer: String)
+    func updateViewWith(images:[UIImageView])
+    func updateViewWith(productInformation:String)
 }

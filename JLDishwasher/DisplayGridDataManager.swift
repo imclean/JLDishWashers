@@ -17,3 +17,38 @@ class DisplayGridDataManager: DisplayGridServicesDelegate {
         services = DisplayGridServices(withDelegate: self)
     }
 }
+
+// MARK: - Actions
+
+extension DisplayGridDataManager {
+    
+    func collectDishwashers() {
+        services.collectDishwashers()
+    }
+    
+    func collectProductWith(productId:String) {
+        services.collectDishwasher(withId: productId)
+    }
+}
+
+// MARK: - Delegate Methods
+
+extension DisplayGridDataManager {
+    
+    func didCollect(products:[Product]) {
+        dataManagerDelegate.didCollect(products: products)
+    }
+    
+    func didFailCollectingProductsWith(error:String) {
+        dataManagerDelegate.didFailCollectingProductsWith(error: error)
+    }
+    
+    func didCollect(detail: ProductDetail) {
+        dataManagerDelegate.didCollect(detail: detail)
+    }
+    
+    func didFailCollectingProductDetailWith(error: String) {
+        dataManagerDelegate.didFailCollectingProductDetailWith(error: error)
+    }
+    
+}

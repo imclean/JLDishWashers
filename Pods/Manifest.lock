@@ -1,3 +1,27 @@
-PODFILE CHECKSUM: a6d17a1f7eca74b7b55d4778024eda4125a53e42
+PODS:
+  - Alamofire (4.2.0)
+  - AlamofireImage (3.2.0):
+    - Alamofire (~> 4.1)
+  - KVNProgress (2.2.4)
+
+DEPENDENCIES:
+  - AlamofireImage (~> 3.1)
+  - KVNProgress (from `https://github.com/imclean/KVNProgress`)
+
+EXTERNAL SOURCES:
+  KVNProgress:
+    :git: https://github.com/imclean/KVNProgress
+
+CHECKOUT OPTIONS:
+  KVNProgress:
+    :commit: 7d1c06a6e4e8a67aa4b2d21bca48f5dc4b163a57
+    :git: https://github.com/imclean/KVNProgress
+
+SPEC CHECKSUMS:
+  Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
+  AlamofireImage: 157ed682cc81d3b9db4fb90c1f12180ac552d93b
+  KVNProgress: 541edcea5a1fef592aceac8d791a410d38cb499d
+
+PODFILE CHECKSUM: e0834cd6a32602667f230accc5b6f42bb759d64c
 
 COCOAPODS: 1.1.1
