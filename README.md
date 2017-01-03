@@ -37,11 +37,6 @@ For UI testing, a fake was used decouple the collection view cell from the Story
 
 In addition, a few Storyboard configuration tests were included, which would enable a Continuous Integration system to guard against a fundamentally broken Storyboard file (perhaps one in a "walking wounded" but still compiling state, as a result of a bad attempted merge).
 
-# Manual Testing
-
-* I used a combination of using a temporarily invalid API key and Charles Proxy to re-write responses to check the app's behaviour of server errors etc.
-* I verified that online/offline behaviour worked as desired, relying on the Alamofire implementation.
-
 # Credits & Libraries Used
  
 * AlamofireImageView - by the Alamofire Software Foundation; a library written in Swift which makes working with images in a network environment much simpler and cleaner. I chose to use this because:
