@@ -31,12 +31,8 @@ MVVM and MVC were considered, but I am a fan of VIPER and prefer to keep things 
 
 # Unit Testing
 
-The app was developed mostly test first, with an emphasis on model and controller classes, long with integration tests for JSON server responses.
-
-For UI testing, a fake was used decouple the collection view cell from the Storyboard, which might aid reuse in future projects.
-
-In addition, a few Storyboard configuration tests were included, which would enable a Continuous Integration system to guard against a fundamentally broken Storyboard file (perhaps one in a "walking wounded" but still compiling state, as a result of a bad attempted merge).
-
+With less than 24 hours spent on this test, I concentrated in preparing tests for the VIPER stack to show the use of Unit testing in XCode.
+ 
 # Credits & Libraries Used
  
 * AlamofireImageView - by the Alamofire Software Foundation; a library written in Swift which makes working with images in a network environment much simpler and cleaner. I chose to use this because:
